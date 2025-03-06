@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Noto+Sans+Syriac:wght@100..900&family=Ruluko&family=Signika+Negative:wght@300..700&display=swap');
+
+*{
+    background-color: #030e03;
+    color: #e0f9e2;
+    font-family: "Average Sans", sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12vw;
+    margin-top: 12vw;
+    margin-left: 15vw;
+}
+
+header h1{
+    font-weight: bolder;
+}
+
+header p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#areaTabela{
+    padding-top: 1vw;
+    width: 100%;
+    max-width: 55vw;
+    background-color: #0c1d1b;
+    margin-left: 15vw;
+    padding-bottom: 1vw;
+    border-radius: 8px;
+}
+
+#form{
+    margin-top: 1vw;
+    color: #0c1d1b;
+    background-color: #0c1d1b;
+    padding-bottom: 0.5vw;
+}
+
+#form input{
+    background-color: #e0f9e2;
+    color: #030e03;
+    font-size: 20px;
+    height: 2vw;
+    outline: none;
+    border-radius: 8px;
+}
+
+#textArea{
+    margin-left: 3vw;
+}
+
+#numberArea, #emailArea{
+    margin-left: 1vw;
+}
+
+#tabela th{
+    padding: 16px;
+    border-bottom: #00000077 solid 1px;
+}
+
+#tabela, td{
+    background-color: #0c1d1b;
+    font-size: 20px;
+    color: #e0f9e2;
+}
+
+td{
+    text-align: center;
+}
+
+#tabela, th{
+    background-color: #0c1d1b;
+    font-size: 20px;
+    color: #e0f9e2;
+}
+
+#form ::placeholder{
+    font-size: 20px;
+    color: #030e03;
+    text-align: center;
+}
+
+#btnAdicionar{
+    margin-left: 4vw;
+    font-size: 20px;
+    color: #030e03;
+    background-color: #ebcd34;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    height: 2vw;
+    margin-top: 1vw;
+    border-radius: 8px;
+}
+
+#btnAdicionar:hover{
+    background-color: #d3b72ef3;
+    transition: ease 0.2s;
+}
+
+#tabela{
+    justify-content: center;
+    width: 38vw;
+    margin-top: 1vw;
+}
+
+#tabela td{
+    font-weight: 400;
+}
